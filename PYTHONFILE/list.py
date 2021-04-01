@@ -1,0 +1,6 @@
+input_values=input("enter values with comma seperated:")
+print("given input is", input_values)
+list_output=input_values.split(",")
+print("list output of given sequence is",list_output)
+tuple_output=tuple(list_output)
+print("tuple output of given sequence is", tuple_output)
